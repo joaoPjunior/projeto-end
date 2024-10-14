@@ -28,13 +28,13 @@
 
 .font-2-l {
   font: 400 1.5rem/1.5 "Roboto", sans-serif;
-}
+} /* introducao paragrafo */
 
 .font-2-l-b {
   font-weight: 500;
   letter-spacing: 0.015em;
   text-transform: uppercase;
-}
+} /* mesma tipografia do paragrafo */
 
 .font-1-xl {
   font: 600 2rem/1.25 "Poppins", sans-serif;
@@ -44,8 +44,8 @@
   font: 500 2rem/1.25 "Roboto", sans-serif;
 }
 
-.font-1-xlx {
-  font: 600 4rem/1.125 "Poppins", sans-serif;
+.font-1-xxl {
+  font: 600 4rem/1.125 "Poppins", sans-serif; /* h1 fonte 1 */
 }
 
 @media (max-width: 1200px) {
@@ -55,5 +55,15 @@
    .font-2-l,
    .font-2-l-b {
       font-size: 1.125rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .font-1-xxl {
+    font-size: 2rem;
+  }
+  .font-1-xl,
+  .font-2-xl {
+    font-size: 1.5rem;
   }
 }
