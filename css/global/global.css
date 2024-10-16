@@ -9,7 +9,16 @@ img {
     display: block;
 }
 
+
+/* [src$=".jpg"] atribui class a um item especifico */
+img[src$=".jpg"]{
+    border-radius: 4px;
+}
+
 ul,
+h2,
+h3,
+h4,
 h1,
 p {
     margin: 0px;
